@@ -8,4 +8,6 @@
     - `cargo install just` if you've already setup rust and cargo. or 
     - see more [just repo](https://github.com/casey/just)
 
-- run `just wasm`
+- compile wasm: `just wasm`
+
+- run server: `just server`

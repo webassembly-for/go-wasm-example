@@ -9,7 +9,8 @@ import (
 
 func main() {
 	done := make(chan struct {}, 0)
-	js.Global().Set("hash", js.FuncOf(hash))
+	js.Global().Set("wasmHash", js.FuncOf(hash))
+
 	<- done
 }
 
